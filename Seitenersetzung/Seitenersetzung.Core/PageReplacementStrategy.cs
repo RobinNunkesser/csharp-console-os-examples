@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Seitenersetzung
+namespace Seitenersetzung.Core
 {
     public abstract class PageReplacementStrategy
     {

@@ -1,4 +1,6 @@
-﻿namespace Seitenersetzung.Console
+﻿using Seitenersetzung.Core;
+
+namespace Seitenersetzung.Console
 {
     internal class Program
     {

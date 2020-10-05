@@ -1,4 +1,4 @@
-namespace Seitenersetzung
+namespace Seitenersetzung.Core
 {
     public class Lru : BackwardDistanceStrategy
     {

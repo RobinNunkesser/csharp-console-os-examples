@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Seitenersetzung\Seitenersetzung\Seitenersetzung.csproj" />
+      <ProjectReference Include="..\Seitenersetzung.Core\Seitenersetzung.Core.csproj" />
     </ItemGroup>
 
 </Project>

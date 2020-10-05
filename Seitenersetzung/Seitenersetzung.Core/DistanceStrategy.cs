@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Seitenersetzung
+namespace Seitenersetzung.Core
 {
     public abstract class DistanceStrategy : PageReplacementStrategy
     {
