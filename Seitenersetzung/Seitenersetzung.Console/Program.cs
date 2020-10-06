@@ -9,12 +9,12 @@ namespace Seitenersetzung.Console
             1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
         };
 
-        private static readonly int MemorySize = 4;
+        private static readonly int MemorySize = 3;
 
         private static void Main(string[] args)
         {
             PageReplacementStrategy strategy =
-                new Optimal(ReferenceRequests, MemorySize);
+                new Clock(ReferenceRequests, MemorySize);
             var result = strategy.Simulate();
             var output = new ConsolePresenter().Present(result);
             foreach (var (value, left, top) in output)

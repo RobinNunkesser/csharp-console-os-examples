@@ -37,7 +37,7 @@ namespace Seitenersetzung.Console
             }
 
             result.Add(($"Einlagerungen: {entity.Last().Count}", 0,
-                frames * 2 + 7));
+                0));
 
             return result;
         }
