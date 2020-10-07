@@ -14,7 +14,7 @@ namespace Seitenersetzung.Console
         private static void Main(string[] args)
         {
             PageReplacementStrategy strategy =
-                new Clock(ReferenceRequests, MemorySize);
+                new Fifo(ReferenceRequests, MemorySize);
             var result = strategy.Simulate();
             var output = new ConsolePresenter().Present(result);
             foreach (var (value, left, top) in output)

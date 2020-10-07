@@ -70,7 +70,7 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Seitenersetzung\Seitenersetzung.csproj">
-            <Project>{B21C7020-0585-4377-9743-456599156247}</Project>
+            <Project>{331E85EE-5DE6-4AC4-B581-3EE6419B85D9}</Project>
             <Name>Seitenersetzung</Name>
         </ProjectReference>
     </ItemGroup>
