@@ -4,9 +4,17 @@ dotnet: 3.1
 
 env: 
     - PROJECT="AnonymousPipe"
+    - PROJECT="DiningPhilosophersBare"
+    - PROJECT="MessageQueue"
     - PROJECT="MyProcessSample" 
+    - PROJECT="NamedPipe"
+    - PROJECT="Peterson"
     - PROJECT="ProcessStartExample"
+    - PROJECT="ProducerConsumerBare"
+    - PROJECT="ProducerConsumerLock"
+    - PROJECT="ProducerConsumerMutex"
     - PROJECT="Seitenersetzung"    
+    - PROJECT="Threads"
 
 script:
     - cd $PROJECT
