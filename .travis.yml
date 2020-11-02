@@ -8,6 +8,7 @@ env:
     - PROJECT="MessageQueue"
     - PROJECT="MyProcessSample" 
     - PROJECT="NamedPipe"
+    - PROJECT="NetMQExample"
     - PROJECT="Peterson"
     - PROJECT="ProcessStartExample"
     - PROJECT="ProducerConsumerBare"

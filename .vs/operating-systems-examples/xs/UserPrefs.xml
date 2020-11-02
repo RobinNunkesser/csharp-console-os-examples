@@ -1,21 +1,21 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CD31D9E0-AB6D-45B7-9143-F69537EE836D}|Default">
   <MonoDevelop.Ide.ItemProperties.ProcessStartExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NetMQExample FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetMQExample/NetMQExample/Program.cs">
     <Files>
       <File FileName="ProcessStartExample/ProcessStartExample/Program.cs" Line="14" Column="2" />
       <File FileName="ProcessStartExample/ProcessStartExample/ProcessManager.cs" />
+      <File FileName="NetMQExample/NetMQExample/Program.cs" Line="1" Column="1" />
+      <File FileName="NamedPipe/NamedPipe/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="operating-systems-examples" expanded="True">
-            <Node name="DiningPhilosophersBare" expanded="True" />
-            <Node name="NamedPipe" expanded="True" selected="True" />
-            <Node name="Peterson" expanded="True" />
-            <Node name="ProducerConsumerBare" expanded="True" />
-            <Node name="ProducerConsumerLock" expanded="True" />
-            <Node name="ProducerConsumerMutex" expanded="True" />
-            <Node name="Threads" expanded="True" />
+            <Node name="NamedPipe" expanded="True" />
+            <Node name="NetMQExample" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
