@@ -1,11 +1,11 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CD31D9E0-AB6D-45B7-9143-F69537EE836D}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BE149BF4-E927-4420-B693-2AD1DE6C4CA9}|Default">
   <MonoDevelop.Ide.ItemProperties.ProcessStartExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.NetMQExample FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NetMQExample/NetMQExample/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.NetMQExample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="ProcessStartExample/ProcessStartExample/Program.cs" Line="14" Column="2" />
       <File FileName="ProcessStartExample/ProcessStartExample/ProcessManager.cs" />
-      <File FileName="NetMQExample/NetMQExample/Program.cs" Line="1" Column="1" />
+      <File FileName="NetMQExample/NetMQExample/Program.cs" Line="11" Column="14" />
       <File FileName="NamedPipe/NamedPipe/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>

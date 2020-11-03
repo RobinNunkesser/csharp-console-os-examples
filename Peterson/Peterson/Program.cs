@@ -21,9 +21,9 @@ namespace Peterson
             Console.WriteLine();
         }
 
-        private static void Leave_region(int process) // Prozess, der die kritische Region verlässt
+        private static void Leave_region(int process) 
         {
-            Interested[process] = false; // Zeigt den Ausstieg aus dem kritischen Bereich an
+            Interested[process] = false; // Ausstieg aus dem kritischen Bereich 
         }
 
         private static void StaticMethod(object threadId)
@@ -31,7 +31,7 @@ namespace Peterson
             Enter_region((int) threadId);
             Console.WriteLine($"Thread {threadId} entered critical region.");
             _myself = (int) threadId;
-            Console.WriteLine($"Variable myself should have value {threadId}, actual value is: {_myself}");
+            Console.WriteLine($"Variable should be {threadId}, is: {_myself}");
             Leave_region((int) threadId);
         }
 

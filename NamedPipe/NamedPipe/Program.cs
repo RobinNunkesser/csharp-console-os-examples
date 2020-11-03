@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace NamedPipe
 {
-class Program
+    static class Program
     {
+        private const string PipeName = "PipeName";
+
         static void Main(string[] args)
         {
             Console.WriteLine("Text to send: ");
@@ -15,7 +17,7 @@ class Program
             Task.Delay(1000).Wait();
             
             //Client
-            var client = new NamedPipeClientStream("PipeName");
+            var client = new NamedPipeClientStream(PipeName);
             client.Connect();
             var writer = new StreamWriter(client);
 
@@ -33,7 +35,7 @@ class Program
         {
             Task.Factory.StartNew(() =>
             {
-                var server = new NamedPipeServerStream("PipeName");
+                var server = new NamedPipeServerStream(PipeName);
                 server.WaitForConnection();
                 var reader = new StreamReader(server);
                 while (true)
