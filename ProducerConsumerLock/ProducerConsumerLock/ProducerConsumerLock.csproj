@@ -6,10 +6,6 @@
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-      <SignAssembly></SignAssembly>
-      <DelaySign>false</DelaySign>
-      <PublicSign>false</PublicSign>
-      <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
       <NoWarn></NoWarn>
       <AllowUnsafeBlocks></AllowUnsafeBlocks>
       <DefineConstants>TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0</DefineConstants>
