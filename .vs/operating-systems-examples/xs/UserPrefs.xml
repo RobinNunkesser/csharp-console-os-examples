@@ -1,34 +1,55 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BE149BF4-E927-4420-B693-2AD1DE6C4CA9}|Default">
-  <MonoDevelop.Ide.ItemProperties.ProcessStartExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.NetMQExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ProducerConsumerBare PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetMQExample/NetMQExample/Program.cs">
     <Files>
       <File FileName="ProcessStartExample/ProcessStartExample/Program.cs" Line="14" Column="2" />
       <File FileName="ProcessStartExample/ProcessStartExample/ProcessManager.cs" />
-      <File FileName="NetMQExample/NetMQExample/Program.cs" />
-      <File FileName="NamedPipe/NamedPipe/Program.cs" />
-      <File FileName="Devices/Devices/Program.cs" Line="1" Column="1" />
+      <File FileName="NetMQExample/NetMQExample/Program.cs" Line="1" Column="1" />
+      <File FileName="NamedPipe/NamedPipe/Program.cs" Line="22" Column="51" />
+      <File FileName="Devices/Devices/Program.cs" />
+      <File FileName="Threads/Threads/Program.cs" Line="22" Column="14" />
+      <File FileName="Peterson/Peterson/Program.cs" Line="17" Column="42" />
+      <File FileName="ProducerConsumerBare/ProducerConsumerBare/Program.cs" Line="29" Column="32" />
+      <File FileName="ProducerConsumerMutex/ProducerConsumerMutex/Program.cs" Line="67" Column="49" />
+      <File FileName="ProducerConsumerLock/ProducerConsumerLock/Program.cs" Line="60" Column="40" />
+      <File FileName="DiningPhilosophersBare/DiningPhilosophersBare/Program.cs" Line="32" Column="69" />
+      <File FileName="AnonymousPipe/AnonymousPipe/Program.cs" Line="21" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="operating-systems-examples" expanded="True">
-            <Node name="Devices" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="AnonymousPipe" expanded="True" />
+            <Node name="Devices" expanded="True" />
+            <Node name="DiningPhilosophersBare" expanded="True" />
             <Node name="NamedPipe" expanded="True" />
             <Node name="NetMQExample" expanded="True" />
+            <Node name="Peterson" expanded="True" />
             <Node name="ProcessStartExample" expanded="True" />
+            <Node name="ProducerConsumerBare" expanded="True" />
+            <Node name="ProducerConsumerLock" expanded="True" />
+            <Node name="ProducerConsumerMutex" expanded="True" />
+            <Node name="Threads" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.AnonymousPipe PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ProcessStartExample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NetMQExample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NamedPipe PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Peterson PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Threads PreferredExecutionTarget="MonoDevelop.Default" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ProducerConsumerMutex PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ProducerConsumerLock PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DiningPhilosophersBare PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.AnonymousPipe PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.99.81" />
 </Properties>

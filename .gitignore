@@ -47,3 +47,8 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+.vs/operating-systems-examples/xs/project-cache
+NetMQExample/NetMQExample/bin/Debug
+NetMQExample/NetMQExample/obj/Debug
+NetMQExample/NetMQExample/obj/Release
+NetMQExample/NetMQExample/obj
