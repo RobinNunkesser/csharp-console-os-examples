@@ -18,6 +18,7 @@ namespace ProducerConsumerBare
                 {
                     Console.WriteLine(
                         $"Step {++_step}: Producing one item, {++_count} items in buffer.");
+                    Console.Out.Flush();
                 }
             }
         }
@@ -30,6 +31,7 @@ namespace ProducerConsumerBare
                 {
                     Console.WriteLine(
                         $"Step {++_step}: Consuming one item, {--_count} items in buffer.");
+                    Console.Out.Flush();
                 }
             }
         }

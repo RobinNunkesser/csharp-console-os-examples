@@ -16,7 +16,7 @@ namespace MyProcessSample
 
             // Get all instances of dotnet running on the local computer.
             // This will return an empty array if dotnet isn't running.
-            var localByName = Process.GetProcessesByName("dotnet");
+            var localByName = Process.GetProcessesByName("MyProcessSample");
 
             // Get a process on the local computer, using the process id.
             // This will throw an exception if there is no such process.
