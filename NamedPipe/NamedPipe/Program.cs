@@ -15,7 +15,7 @@ namespace NamedPipe
             Console.WriteLine("Received: ");
             StartServer();
             Task.Delay(1000).Wait();
-            
+
             //Client
             var client = new NamedPipeClientStream(PipeName);
             client.Connect();
@@ -23,7 +23,7 @@ namespace NamedPipe
 
             while (true)
             {
-                Console.SetCursorPosition(14,1);
+                Console.SetCursorPosition(14, 1);
                 var input = Console.ReadLine();
                 if (string.IsNullOrEmpty(input)) break;
                 writer.WriteLine(input);
@@ -41,9 +41,9 @@ namespace NamedPipe
                 while (true)
                 {
                     var line = reader.ReadLine();
-                    Console.SetCursorPosition(14,2);
+                    Console.SetCursorPosition(14, 2);
                     Console.WriteLine(line);
-                    Console.SetCursorPosition(14,1);
+                    Console.SetCursorPosition(14, 1);
                 }
             });
         }

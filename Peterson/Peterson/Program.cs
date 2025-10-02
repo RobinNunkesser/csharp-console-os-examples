@@ -31,6 +31,7 @@ namespace Peterson
             Enter_region((int) threadId);
             Console.WriteLine($"Thread {threadId} entered critical region.");
             _myself = (int) threadId;
+            System.Threading.Thread.Sleep(1);
             Console.WriteLine($"Variable should be {threadId}, is: {_myself}");
             Leave_region((int) threadId);
         }

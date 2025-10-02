@@ -15,7 +15,8 @@ namespace AnonymousPipe
                 pipeServer.ClientSafePipeHandle);
             try
             {
-                using var sw = new StreamWriter(pipeServer) {AutoFlush = true};
+                using var sw = new StreamWriter(pipeServer);
+                sw.AutoFlush = true;
                 sw.WriteLine("Hello world through a pipe!");
                 using var sr = new StreamReader(pipeClient);
                 var received = sr.ReadLine();

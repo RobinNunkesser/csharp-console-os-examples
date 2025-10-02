@@ -14,12 +14,10 @@ namespace ProducerConsumerBare
         {
             while (_step < Steps)
             {
-                if (_count < Capacity)
-                {
-                    Console.WriteLine(
-                        $"Step {++_step}: Producing one item, {++_count} items in buffer.");
-                    Console.Out.Flush();
-                }
+                if (_count >= Capacity) continue;
+                Console.WriteLine(
+                    $"Step {++_step}: Producing one item, {++_count} items in buffer.");
+                Console.Out.Flush();
             }
         }
 
@@ -27,12 +25,10 @@ namespace ProducerConsumerBare
         {
             while (_step < Steps)
             {
-                if (_count > 0)
-                {
-                    Console.WriteLine(
-                        $"Step {++_step}: Consuming one item, {--_count} items in buffer.");
-                    Console.Out.Flush();
-                }
+                if (_count <= 0) continue;
+                Console.WriteLine(
+                    $"Step {++_step}: Consuming one item, {--_count} items in buffer.");
+                Console.Out.Flush();
             }
         }
 

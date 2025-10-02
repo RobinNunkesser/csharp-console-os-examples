@@ -10,7 +10,7 @@ namespace ProducerConsumerLock
         private static int _count = 50;
         private static int _step;
 
-        static readonly object _locker = new object();
+        private static readonly Lock Locker = new Lock();
 
 
         private static readonly AutoResetEvent Production =
@@ -23,7 +23,7 @@ namespace ProducerConsumerLock
         {
             while (_step < Steps - 1)
             {
-                lock (_locker)
+                lock (Locker)
                 {
                     if (_count < Capacity)
                     {
@@ -42,7 +42,7 @@ namespace ProducerConsumerLock
         {
             while (_step < Steps - 1)
             {
-                lock (_locker)
+                lock (Locker)
                 {
                     if (_count > 0)
                     {
