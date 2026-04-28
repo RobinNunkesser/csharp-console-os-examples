@@ -56,7 +56,11 @@
     <mapping directory="$PROJECT_DIR$/../csharp-recipes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../csharp-unity-isd-234-mini-games" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../csharp-unity-killer-wave" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dart-flutter-aes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dart-flutter-app-integrity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dart-flutter-basic-interaction" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dart-flutter-mas-test-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dart-flutter-mastg-demos" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dart-recipes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../isd-nunkesser.github.io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../kotlin-compose-poetry-reader" vcs="Git" />

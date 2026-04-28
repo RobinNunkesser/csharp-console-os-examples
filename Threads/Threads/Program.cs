@@ -9,7 +9,9 @@ namespace Threads
 
         static void StaticMethod(object threadId)
         {
-            Console.WriteLine($"Hello World. Greetings from thread {threadId}");    
+            Console.WriteLine($"Hello World. Greetings from thread {threadId}");  
+            Thread.Sleep(1000);
+            Console.WriteLine($"Leaving thread {threadId}");
         }
 
         private static void Main(string[] args)
